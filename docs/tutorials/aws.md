@@ -116,7 +116,8 @@ In this case it's the ones shown above but your's will differ.
 Connect your `kubectl` client to the cluster you want to test ExternalDNS with.
 Then apply one of the following manifests file to deploy ExternalDNS. You can check if your cluster has RBAC by `kubectl api-versions | grep rbac.authorization.k8s.io`.
 
-For clusters with RBAC enabled, be sure to choose the correct `namespace`.
+> For clusters with RBAC enabled, be sure to choose the correct `namespace`.
+what does it means ? what is the correct namespace ? (i have these namespaces: default, kube-system, staging, dev, production)  i am new kubernetes user and i am is not a kubernetes plugin/module developer, i not very experienced with kubernetes, please provide here additional information.
 
 ### Manifest (for clusters without RBAC enabled)
 ```yaml
